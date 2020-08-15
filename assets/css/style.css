@@ -86,3 +86,24 @@
 .fp-options ul li:hover{
     color: #2879fe;
 }
+.fp-dropdown-title{
+  font-size: 18px;
+  margin: 15px;
+
+}
+
+.fp-menu ul li ul li{
+  font-size: 14px;
+  color: #4e4e4e;
+  display: block;
+  text-align: right;
+  margin: 18px;
+}
+.fp-dropdown-shop{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width:100% ;
+  right: 0;
+  top: 45px;
+
+}
