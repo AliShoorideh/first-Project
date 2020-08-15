@@ -1,4 +1,88 @@
-body .header{
-    color: aqua;
-    font-size: 30px;
+@font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/yekanbakh/eot/YekanBakhFaBold.eot');
+    src: url('../fonts/yekanbakh/eot/YekanBakhFaBold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhFaBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhFaBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/yekanbakh/eot/YekanBakhFaMedium.eot');
+    src: url('../fonts/yekanbakh/eot/YekanBakhFaMedium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhFaMedium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhFaMedium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/yekanbakh/eot/YekanBakhFaLight.eot');
+    src: url('../fonts/yekanbakh/eot/YekanBakhFaLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhFaLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhFaLight.ttf') format('truetype');
+  }
+  /*
+   * English Numeric
+  */
+  @font-face {
+    font-family: yekanbakhen;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/yekanbakh/eot/YekanBakhEnBold.eot');
+    src: url('../fonts/yekanbakh/eot/YekanBakhEnBold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhENBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhENBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: yekanbakhen;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/yekanbakh/eot/YekanBakhEnMedium.eot');
+    src: url('../fonts/yekanbakh/eot/YekanBakhEnMedium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhENMedium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhENMedium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: yekanbakhen;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/yekanbakh/eot/YekanBakhEnLight.eot');
+    src: url('../fonts/yekanbakh/eot/YekanBakhEnLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhENLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhENLight.ttf') format('truetype');
+  }
+.fp-header{
+
+    height: 50px;
+    max-width: 1200px;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+.fp-logo{
+    width: 9%;
+    padding-top: 10px;
+    
+}
+.fp-menu{
+    font-family:yekanbakhen;
+    width: 47%;
+    padding-top: 18px;
+    
+}
+.fp-menu ul li{
+    display: inline;
+    margin: 20px;
+    text-align: center;
+}
+.fp-selected{
+    color: #2879fe;
+}
+.fp-menu ul li a:hover{
+    color: #2879FE;
+}
+.fp-options{
+    width: 30%;
+    padding-top: 18px;
+}
+.fp-options ul li{
+    display: inline;
+    margin: 10px;
+    text-align: center;
+}
+.fp-options ul li:hover{
+    color: #2879fe;
 }

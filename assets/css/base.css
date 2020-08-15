@@ -1,0 +1,12 @@
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
