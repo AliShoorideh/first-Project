@@ -63,10 +63,13 @@
     padding-top: 18px;
     
 }
-.fp-menu ul li{
+.fp-menu ul li div{
     display: inline;
     margin: 20px;
     text-align: center;
+}
+.fp-menu ul li{
+  display: inline;
 }
 .fp-selected{
     color: #2879fe;
@@ -78,7 +81,7 @@
     width: 30%;
     padding-top: 18px;
 }
-.fp-options ul li{
+.fp-options ul li {
     display: inline;
     margin: 10px;
     text-align: center;
@@ -102,8 +105,10 @@
 .fp-dropdown-shop{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   position: absolute;
-  width:100% ;
+  width: 100%;
   right: 0;
+  margin: 0 !important;
   top: 45px;
+  z-index: 1;
 
 }
