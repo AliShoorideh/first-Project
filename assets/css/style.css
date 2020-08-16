@@ -107,8 +107,51 @@
   position: absolute;
   width: 100%;
   right: 0;
-  margin: 0 !important;
-  top: 45px;
+  top: 38px;
   z-index: 1;
+  border-radius: 10px;
+  display: none;
 
+}
+.fp-shop:hover .fp-dropdown-shop{
+  display: block;
+}
+.fp-dropdown-pages{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 210px;
+  top: 38px;
+  z-index: 1;
+  border-radius: 10px;
+  display: none;
+
+}
+.fp-pages:hover .fp-dropdown-pages{
+  display: block;
+}
+.fp-dropdown-blog{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 300px;
+  top: 38px;
+  z-index: 1;
+  border-radius: 10px;
+  display: none;
+
+}
+.fp-blog:hover .fp-dropdown-blog{
+  display: block;
+}
+.fp-dropdown-portfolio{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 390px;
+  top: 38px;
+  z-index: 1;
+  border-radius: 10px;
+  display: none;
+
+}
+.fp-portfolio:hover .fp-dropdown-portfolio{
+  display: block;
 }
