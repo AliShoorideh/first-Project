@@ -1,161 +1,171 @@
+body {
+  direction: rtl;
+}
+
 @font-face {
-    font-family: yekanbakh;
-    font-style: normal;
-    font-weight: bold;
-    src: url('../fonts/yekanbakh/eot/YekanBakhFaBold.eot');
-    src: url('../fonts/yekanbakh/eot/YekanBakhFaBold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhFaBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhFaBold.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: yekanbakh;
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/yekanbakh/eot/YekanBakhFaMedium.eot');
-    src: url('../fonts/yekanbakh/eot/YekanBakhFaMedium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhFaMedium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhFaMedium.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: yekanbakh;
-    font-style: normal;
-    font-weight: 300;
-    src: url('../fonts/yekanbakh/eot/YekanBakhFaLight.eot');
-    src: url('../fonts/yekanbakh/eot/YekanBakhFaLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhFaLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhFaLight.ttf') format('truetype');
-  }
-  /*
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/yekanbakh/eot/YekanBakhFaBold.eot");
+  src: url("../fonts/yekanbakh/eot/YekanBakhFaBold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/yekanbakh/woff/YekanBakhFaBold.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/yekanbakh/ttf/YekanBakhFaBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/yekanbakh/eot/YekanBakhFaMedium.eot");
+  src: url("../fonts/yekanbakh/eot/YekanBakhFaMedium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/yekanbakh/woff/YekanBakhFaMedium.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/yekanbakh/ttf/YekanBakhFaMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/yekanbakh/eot/YekanBakhFaLight.eot");
+  src: url("../fonts/yekanbakh/eot/YekanBakhFaLight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/yekanbakh/woff/YekanBakhFaLight.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/yekanbakh/ttf/YekanBakhFaLight.ttf") format("truetype");
+}
+/*
    * English Numeric
   */
-  @font-face {
-    font-family: yekanbakhen;
-    font-style: normal;
-    font-weight: bold;
-    src: url('../fonts/yekanbakh/eot/YekanBakhEnBold.eot');
-    src: url('../fonts/yekanbakh/eot/YekanBakhEnBold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhENBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhENBold.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: yekanbakhen;
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/yekanbakh/eot/YekanBakhEnMedium.eot');
-    src: url('../fonts/yekanbakh/eot/YekanBakhEnMedium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhENMedium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhENMedium.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: yekanbakhen;
-    font-style: normal;
-    font-weight: 300;
-    src: url('../fonts/yekanbakh/eot/YekanBakhEnLight.eot');
-    src: url('../fonts/yekanbakh/eot/YekanBakhEnLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/yekanbakh/woff/YekanBakhENLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekanbakh/ttf/YekanBakhENLight.ttf') format('truetype');
-  }
-.fp-header{
+@font-face {
+  font-family: yekanbakhen;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/yekanbakh/eot/YekanBakhEnBold.eot");
+  src: url("../fonts/yekanbakh/eot/YekanBakhEnBold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/yekanbakh/woff/YekanBakhENBold.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/yekanbakh/ttf/YekanBakhENBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: yekanbakhen;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/yekanbakh/eot/YekanBakhEnMedium.eot");
+  src: url("../fonts/yekanbakh/eot/YekanBakhEnMedium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/yekanbakh/woff/YekanBakhENMedium.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/yekanbakh/ttf/YekanBakhENMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: yekanbakhen;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/yekanbakh/eot/YekanBakhEnLight.eot");
+  src: url("../fonts/yekanbakh/eot/YekanBakhEnLight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/yekanbakh/woff/YekanBakhENLight.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/yekanbakh/ttf/YekanBakhENLight.ttf") format("truetype");
+}
+.fp-header {
+  height: 50px;
+  max-width: 1200px;
 
-    height: 50px;
-    max-width: 1200px;
-
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
-.fp-logo{
-    width: 9%;
-    padding-top: 10px;
-    
+.fp-logo {
+  width: 9%;
+  padding-top: 10px;
 }
-.fp-menu{
-    font-family:yekanbakhen;
-    width: 47%;
-    padding-top: 18px;
-    
+.fp-menu {
+  font-family: yekanbakhen;
+  width: 47%;
+  padding-top: 18px;
 }
-.fp-menu ul li div{
-    display: inline;
-    margin: 20px;
-    text-align: center;
+.fp-menu ul li div {
+  display: inline;
+  margin: 20px;
+  text-align: center;
 }
-.fp-menu ul li{
+.fp-menu ul li {
   display: inline;
 }
-.fp-selected{
-    color: #2879fe;
+.fp-selected {
+  color: #2879fe;
 }
-.fp-menu ul li a:hover{
-    color: #2879FE;
+.fp-menu ul li a:hover {
+  color: #2879fe;
 }
-.fp-options{
-    width: 30%;
-    padding-top: 18px;
+.fp-options {
+  width: 20%;
+  padding-top: 18px;
 }
 .fp-options ul li {
-    display: inline;
-    margin: 10px;
-    text-align: center;
+  display: inline;
+  margin: 10px;
+  text-align: center;
 }
-.fp-options ul li:hover{
-    color: #2879fe;
+.fp-options ul li:hover {
+  color: #2879fe;
 }
-.fp-dropdown-title{
+.fp-dropdown-title {
   font-size: 18px;
   margin: 15px;
-
 }
 
-.fp-menu ul li ul li{
+.fp-menu ul li ul li {
   font-size: 14px;
   color: #4e4e4e;
   display: block;
   text-align: right;
   margin: 18px;
-  
 }
-.fp-dropdown-shop{
+.fp-dropdown-shop {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   position: absolute;
   width: 100%;
   right: 0;
   top: 38px;
   z-index: 1;
-  border-radius: 10px;
   display: none;
 }
-.fp-shop:hover .fp-dropdown-shop{
-  display: block;
-}
-.fp-dropdown-pages{
+.fp-dropdown-pages {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   position: absolute;
-  right: 210px;
+  right: 200px;
   top: 38px;
   z-index: 1;
-  border-radius: 10px;
   display: none;
-
 }
-.fp-pages:hover .fp-dropdown-pages{
-  display: block;
-}
-.fp-dropdown-blog{
+.fp-dropdown-blog {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   position: absolute;
-  right: 300px;
+  right: 280px;
   top: 38px;
   z-index: 1;
-  border-radius: 10px;
   display: none;
-
 }
-.fp-blog:hover .fp-dropdown-blog{
-  display: block;
-}
-.fp-dropdown-portfolio{
+.fp-dropdown-portfolio {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   position: absolute;
-  right: 390px;
+  right: 365px;
   top: 38px;
   z-index: 1;
-  border-radius: 10px;
   display: none;
-
 }
-.fp-portfolio:hover .fp-dropdown-portfolio{
-  display: block;
-}
-.fp-dropdown-women{
+.fp-dropdown-women {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   position: absolute;
   width: 100%;
@@ -163,20 +173,116 @@
   top: 38px;
   height: 450px;
   z-index: 1;
-  border-radius: 10px;
+  display: none;
+}
+.fp-women-dropdown {
+  width: 100%;
+  position: absolute;
+  bottom: 89px;
+  right: 70px;
+  margin: -69px !important;
+}
+.fp-women-dropdown img {
+  margin: 0 20px;
+}
+.fp-dropdown-men {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 290px;
+  width: 60%;
+  top: 38px;
+  z-index: 1;
+  display: none;
+}
+.fp-user {
+  display: inline;
+  margin: 10px;
+  text-align: center;
+}
+.fp-user-list {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 15%;
+  top: 35px;
+  z-index: 1;
+  display: none;
+}
+.fp-user-list li a i {
+  margin: 0 10px;
+}
+.fp-user-list li {
+  text-align: right !important;
+  width: 100%;
+  color: #000000;
+}
+.fp-user-list li:hover {
+  color: #2879fe;
+}
+span {
+  font-family: yekanbakhen !important;
+  font-size: 13px !important;
+}
+p {
+  font-family: yekanbakhen !important;
+}
+.fp-shopping-basket {
+  display: inline;
+  margin: 10px;
+  text-align: center;
+}
+.fp-shopping-basket-list {
+  display: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100% !important;
+  z-index: 1;
+  padding: 10px 10px;
+  opacity: 0.3;
+  float: right;
+  color: #000000;
+}
+.fp-shopping-basket-list span {
+  margin-bottom: 20px;
+}
+
+.fp-no-product-icon {
+  font-size: 45px !important;
+  text-align: center;
+  margin: 20px 0;
+}
+.fp-search {
+  display: inline;
+  margin: 10px;
+  text-align: center;
+}
+.fp-search-list{
+  position: fixed;
+  right: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  z-index: 100;
+  height: 200px;
+  top: 0;
+  background: #ffffff;
   display: none;
 
 }
-.fp-women:hover .fp-dropdown-women{
-  display: block;
+.fp-search-list input{
+  border: none;
+    width: 80%;
+    float: none;
+    font-size: 25px;
+    font-family: yekanbakh;
+    margin-top: 65px;
+    border-bottom: solid 0.5px;
 }
-.fp-women-dropdown{
-  width: 100%;
-    position: absolute;
-    bottom: 89px;
-    right: 70px;
-    margin: -69px !important;
-}
-.fp-women-dropdown img{
-  margin: 0 20px;
+.fp-search-list-icon{
+  border: none;
+  background-color: #ffffff;
+  font-size: 30px;
+  color: #000000 ;
+  margin-top: 65px ;
+  left: 140px ;
+  position: absolute ;
+  opacity: 0.5 ;
 }

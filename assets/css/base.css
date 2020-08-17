@@ -13,6 +13,12 @@
 .width20{
     width: 20%;
 }
+.width28{
+    width: 28%;
+}
+.width40{
+    width: 40%;
+}
 .hide{
     display: none !important;
 }
