@@ -101,6 +101,7 @@
   display: block;
   text-align: right;
   margin: 18px;
+  
 }
 .fp-dropdown-shop{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -111,7 +112,6 @@
   z-index: 1;
   border-radius: 10px;
   display: none;
-
 }
 .fp-shop:hover .fp-dropdown-shop{
   display: block;
@@ -154,4 +154,29 @@
 }
 .fp-portfolio:hover .fp-dropdown-portfolio{
   display: block;
+}
+.fp-dropdown-women{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  top: 38px;
+  height: 450px;
+  z-index: 1;
+  border-radius: 10px;
+  display: none;
+
+}
+.fp-women:hover .fp-dropdown-women{
+  display: block;
+}
+.fp-women-dropdown{
+  width: 100%;
+    position: absolute;
+    bottom: 89px;
+    right: 70px;
+    margin: -69px !important;
+}
+.fp-women-dropdown img{
+  margin: 0 20px;
 }
