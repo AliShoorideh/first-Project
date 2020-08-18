@@ -337,4 +337,32 @@ p {
   float: right;
   background-color: #2879fe;
   height: 60px;
+  text-align: center;
 }
+.fp-touch-with-us{
+  float: right;
+  margin: 20px 150px 0;
+  color: #ffffff;
+  font-size: 20px !important;
+}
+.fp-footer-search{
+  margin-top: 8px;
+  font-family: yekanbakh;
+}
+.fp-footer-search input{
+  border: none;
+    position: relative;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fp-footer-search a{
+  color: #ffffff;
+  background-color: #303030;
+  padding: 15px;
+  position: absolute;
+  left: 370px;
+  overflow: hidden;
+  border-radius: 10px 0 0 10px;
+}
+
