@@ -109,7 +109,7 @@ body {
   color: #2879fe;
 }
 .fp-options {
-  width: 20%;
+  width: 15%;
   padding-top: 18px;
 }
 .fp-options ul li {
@@ -255,7 +255,7 @@ p {
   margin: 10px;
   text-align: center;
 }
-.fp-search-list{
+.fp-search-list {
   position: fixed;
   right: 0;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -265,24 +265,76 @@ p {
   top: 0;
   background: #ffffff;
   display: none;
-
 }
-.fp-search-list input{
+.fp-search-list input {
   border: none;
-    width: 80%;
-    float: none;
-    font-size: 25px;
-    font-family: yekanbakh;
-    margin-top: 65px;
-    border-bottom: solid 0.5px;
+  width: 80%;
+  float: none;
+  font-size: 25px;
+  font-family: yekanbakh;
+  margin-top: 65px;
+  border-bottom: solid 0.5px;
 }
-.fp-search-list-icon{
+.fp-search-list-icon {
   border: none;
   background-color: #ffffff;
   font-size: 30px;
-  color: #000000 ;
-  margin-top: 65px ;
-  left: 140px ;
-  position: absolute ;
-  opacity: 0.5 ;
+  color: #000000;
+  margin-top: 65px;
+  left: 140px;
+  position: absolute;
+  opacity: 0.5;
+}
+.fp-follow-us {
+  width: 100%;
+  text-align: center;
+  direction: ltr;
+  font-size: 20px;
+  line-height: 25px;
+}
+.fp-follow-link {
+  color: #2879fe;
+  text-decoration: underline;
+}
+.fp-follow-link:hover {
+  text-decoration: none;
+}
+.fp-data {
+  width: 100%;
+  margin-top: 75px;
+  position: relative;
+  float: right;
+}
+.fp-title {
+  float: right;
+  margin-right: 90px;
+  width: 25%;
+  font-family: yekanbakh;
+}
+.fp-title i {
+  font-size: 60px;
+  margin-left: 15px;
+  float: right;
+  color: #2879fe;
+}
+.fp-data-title {
+  line-height: 32px;
+}
+.fp-data-title a:hover {
+  color: #2879fe;
+}
+.fp-data-title div{
+  font-size: 15px;
+  opacity: 0.9;
+}
+.fp-data-title a{
+  font-size: 20px;
+
+}
+.fp-contact-us{
+  margin-top: 50px;
+  width: 100%;
+  float: right;
+  background-color: #2879fe;
+  height: 60px;
 }
