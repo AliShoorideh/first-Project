@@ -19,6 +19,9 @@
 .width40{
     width: 40%;
 }
+.width25{
+    width: 25%;
+}
 .hide{
     display: none !important;
 }
